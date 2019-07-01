@@ -30,19 +30,6 @@ public class Sesion {
         this.status = status;
     }
 
-    public Sesion(String nombre, String apellido_paterno, String apellido_materno,
-            String genero, String fechaNamiento, String direccion, String user, String pass, String status) {
-        this.nombre = nombre;
-        this.apellido_paterno = apellido_paterno;
-        this.apellido_materno = apellido_materno;
-        this.genero = genero;
-        this.fechaNamiento = fechaNamiento;
-        this.direccion = direccion;
-        this.user = user;
-        this.pass = pass;
-        this.status = status;
-    }
-
     public Sesion() {
 
     }
